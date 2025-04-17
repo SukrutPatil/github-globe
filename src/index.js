@@ -10,9 +10,9 @@ import {
   PointLight,
 } from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
-import countries from "./data/files/globe-data-min.json";
-import flights from "./data/files/my-flights.json";
-import airports from "./data/files/my-airports.json";
+import countries from "../public/files/globe-data-min.json";
+import flights from "../public/files/my-flights.json";
+import airports from "../public/files/my-airports.json";
 
 
 let renderer, camera, scene, controls;
