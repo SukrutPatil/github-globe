@@ -5,7 +5,7 @@ module.exports = {
   entry: ["./src/index.js"],
   devtool: "source-map",
   devServer: {
-    contentBase: "./",
+    contentBase: "./dist",
     writeToDisk: true,
   },
   plugins: [],
