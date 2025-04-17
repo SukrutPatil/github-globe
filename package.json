@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config=webpack.prod.js",
     "build-dev": "webpack --config=webpack.dev.js",
-    "start": "webpack serve webpack-dev-server --open --config=webpack.dev.js"
+    "start": "webpack serve --open --config webpack.dev.js"
   },
   "keywords": [
     "pandemic",
@@ -23,6 +23,7 @@
     "three-glow-mesh": "^0.1.2"
   },
   "devDependencies": {
+    "copy-webpack-plugin": "^13.0.0",
     "file-loader": "^6.2.0",
     "json-loader": "^0.5.7",
     "webpack": "^5.15.0",

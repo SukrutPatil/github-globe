@@ -9,6 +9,7 @@ module.exports = {
     open: false,
     hot: true,
     writeToDisk: true,
+    
   },
   plugins: [],
   module: {
